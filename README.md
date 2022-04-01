@@ -10,8 +10,8 @@ Mostly Working Code -- given the run steps, the code should download data, forma
 
 **make step1** -- runs docker images in the foreground for convenience
 
-Posgree Database Image
-Min.io AWS S3 Emulator
+* **Posgree** Database Image
+* **Min.io** AWS S3 Emulator using **BOTO3** and **awscli**
 
 **make step2** points_leaders -- loads and shapes data then queries the results. This should just print out the top 10 points leaders.
 
