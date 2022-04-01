@@ -14,3 +14,12 @@ Posgree Database Image
 Min.io AWS S3 Emulator
 
 **make step2** points_leaders -- loads and shapes data then queries the results. This should just print out the top 10 points leaders.
+
+
+## Prerequisites
+We use Mac OS for development so if you have one and do any kind of development on it, you're probably good. Linux environments should work too, this was tested on an Ubuntu machine. Windows users will need to establish a complete workflow. (Sorry)
+
+* Docker -- native for linux, Desktop for Mac and windows users
+* docker-compose -- comes with desktop. Linux users may need an extra install.
+* a functioning make -- if you don't/can't use this, the make file is just wrapping the steps necessary to run the code and should be easy to disect to run manually
+* Python 3.7+ with a virtualenv -- This example won't create the virtualenv for you, but will help you install dependencies
